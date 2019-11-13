@@ -8,7 +8,7 @@ sudo: required
 notifications:
   email:
     recipients:
-      - bunnyppl@gmail.com
+      - kianghong.law@gmail.coms
     on_success: always
     on_failure: always
   slack: 
@@ -21,6 +21,7 @@ notifications:
 branches:
   only:
    - master
+   - development
 before_script:
   - npm install -g @angular/cli
   - npm install -g now
